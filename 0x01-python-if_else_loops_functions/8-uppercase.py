@@ -5,5 +5,3 @@ def uppercase(str):
             print("{:c}".format(ord(char) - ord('a') + ord('A')), end="")
         else:
             print(char, end="\n")
-str = "hello world"
-uppercase(str)
