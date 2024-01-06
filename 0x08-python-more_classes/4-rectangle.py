@@ -95,6 +95,7 @@ class Rectangle:
             if i < self.__height:
                 str += '\n'
         return str
+
     def __repr__(self):
         """repr method
         Return:
