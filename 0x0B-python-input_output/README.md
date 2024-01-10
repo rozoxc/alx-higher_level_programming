@@ -1,7 +1,7 @@
 0x0B. Python - Input/Output
 ===========================
 
--   By Guillaume
+-   By rozoxc
 
 Resources
 ---------
