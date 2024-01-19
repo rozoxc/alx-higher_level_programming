@@ -5,8 +5,8 @@ class Base:
     __nb_objects = 0
 
     def __init__(self, id=None):
+        """class constructor"""
         if id is None:
-            # Generate a unique ID for the object
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
         else:
