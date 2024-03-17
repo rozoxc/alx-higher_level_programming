@@ -9,7 +9,7 @@ def escape_spec_char(arg):
     """Function that escapes special characters"""
     if ("'" in arg) or (';' in arg) or ("--" in arg):
         return None
-    else
+    else:
         return arg
 
 
